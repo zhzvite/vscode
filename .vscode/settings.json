@@ -1,0 +1,19 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.preserveFocus": false,
+    "cmake.configureOnOpen": true,
+    "explorer.confirmDelete": false,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Fira Code",
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && clang++ $fileName -o $test.out && $dir$test.out"
+    }
+}
